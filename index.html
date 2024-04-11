@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kámen-nůžky-papír</title>
+  <script src="game.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kámen-nůžky-papír</h1>
+  <h2>Vyberte svou volbu:</h2>
+  <button onclick="playGame('kámen')">Kámen</button>
+  <button onclick="playGame('nůžky')">Nůžky</button>
+  <button onclick="playGame('papír')">Papír</button>
+  <h2>Výsledky:</h2>
+  <p>Počítač: <span id="computerChoice"></span></p>
+  <p>Hráč: <span id="playerScore">0</span></p>
+  <p>Počítač: <span id="computerScore">0</span></p>
+</body>
+</html>
