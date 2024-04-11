@@ -10,9 +10,15 @@
 <body>
   <h1>Kámen-nůžky-papír</h1>
   <h2>Vyberte svou volbu:</h2>
-  <button onclick="playGame('kámen')">Kámen</button>
-  <button onclick="playGame('nůžky')">Nůžky</button>
-  <button onclick="playGame('papír')">Papír</button>
+  <button onclick="playGame('kámen')">
+    <img src="images/hand_rock.png" alt="Hand rock" class="hands">
+  </button>
+  <button onclick="playGame('nůžky')">
+    <img src="images/hand_scissor.png" alt="Hand scissor" class="hands">
+  </button>
+  <button onclick="playGame('papír')">
+    <img src="images/hand_paper.png" alt="Hand paper" class="hands">
+  </button>
   <h2>Výsledky:</h2>
   <div id="score">
     <p>Počítač: <span id="computerChoice"></span></p>
